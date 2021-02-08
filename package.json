@@ -1,7 +1,7 @@
 {
   "name": "clone-wpp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot para wpp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sulla": "^2.3.14",
-    "venom-bot": "^2.2.3"
+    "sulla": "^2.3.14"
   }
 }

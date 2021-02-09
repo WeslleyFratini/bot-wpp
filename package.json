@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "venom-bot": "^1.0.4"
+    "venom-bot": "^1.6.0"
   }
 }

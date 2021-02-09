@@ -1,6 +1,6 @@
 var stages = {
   0: {
-    descricao: "Boas vindas",
+    descricao: "Boas Vindas",
     obj: require("./stages/0"),
   },
   1: {
@@ -16,8 +16,12 @@ var stages = {
     obj: require("./stages/3"),
   },
   4: {
-    descricao: "Encerramen to",
+    descricao: "Enceramento",
     obj: require("./stages/4"),
+  },
+  5: {
+    descricao: "Forma de Pagamento",
+    obj: require("./stages/5"),
   },
 };
 

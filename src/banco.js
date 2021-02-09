@@ -1,12 +1,3 @@
-var banco = {
-  user1: {
-    stage: 0,
-    itens: [],
-  },
-  user2: {
-    stage: 0,
-    itens: [],
-  },
-};
+var banco = {};
 
 exports.db = banco;

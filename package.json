@@ -8,9 +8,9 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Weslley Fratini",
   "license": "ISC",
   "dependencies": {
-    "venom-bot": "^1.6.0"
+    "venom-bot": "^2.2.3 "
   }
 }

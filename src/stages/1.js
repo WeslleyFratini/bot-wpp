@@ -3,26 +3,26 @@ const banco = require("../banco");
 
 function execute(user, msg) {
   if (msg === "*") {
-    banco.db[user.stage] = 0;
+    banco.db[user].stage = 0;
     return ["Pedido cancelado com sucesso"];
   }
 
   if (msg === "#") {
-    banco.db[user.stage] = 1;
-    return ["Estamos fechando seu pedido, aguarde ..."];
+    banco.db[user].stage = 2;
+    return ["Estamos fechando seu pedido, ok?"];
   }
 
   if (!cardapio.menu[msg]) {
     return [
-      "Código inválido, digite o codigo corretamente",
+      "Código inválido, digite corretamente",
       "```Digite # para finalizar ou * para cancelar```",
     ];
   }
 
-  banco.db[user].itens.push(cardapio.menu(msg));
+  banco.db[user].itens.push(cardapio.menu[msg]);
 
   return [
-    `Item(${cardapio.menu[msg].descricao}) adicionado com sucesso`,
+    `Item(${cardapio.menu[msg].descricao}) adiconado com sucesso`,
     "```Digite # para finalizar ou * para cancelar```",
   ];
 }
